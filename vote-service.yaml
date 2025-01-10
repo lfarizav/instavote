@@ -17,3 +17,5 @@ spec:
   type: NodePort
 status:
   loadBalancer: {}
+sta
+
