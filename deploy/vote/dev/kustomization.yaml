@@ -5,8 +5,3 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 - svc.yaml
-- db-deployment.yaml
-- db-svc-deployment.yaml
-- result-deployment.yaml
-- result-svc-deployment.yaml
-- worker.yaml
