@@ -21,4 +21,3 @@ spec:
       - image: postgres:9.4
         name: postgres
         resources: {}
-status: {}
