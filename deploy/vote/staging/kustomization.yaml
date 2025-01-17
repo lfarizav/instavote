@@ -4,4 +4,4 @@ resources:
 - ../base
 patchesStrategicMerge:
 - deployment.yaml
-= svc.yaml
+- svc.yaml
