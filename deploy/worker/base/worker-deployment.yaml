@@ -21,4 +21,3 @@ spec:
       - image: schoolofdevops/worker:latest
         name: worker-deployment
         resources: {}
-status: {}
