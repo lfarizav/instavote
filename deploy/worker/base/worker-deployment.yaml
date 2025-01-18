@@ -3,22 +3,22 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: vote
-  name: vote
+    app: worker-deployment
+  name: worker-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: vote
+      app: worker-deployment
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: vote
+        app: worker-deployment
     spec:
       containers:
       - image: schoolofdevops/worker:latest
-        name: worker
+        name: worker-deployment
         resources: {}
 status: {}
