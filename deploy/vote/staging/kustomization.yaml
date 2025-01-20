@@ -9,4 +9,5 @@ commonAnnotations:
   supported-by: Luis Felipe Ariza Vesga
 configMapGenerator:
   - name: vote-options
-    env: options.env
+    envs: 
+      - options.env
