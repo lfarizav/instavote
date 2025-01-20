@@ -5,3 +5,5 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 - svc.yaml
+commonAnnotations:
+  supported-by: Luis Felipe Ariza Vesga
