@@ -3,6 +3,7 @@ kind: HelmRelease
 metadata:
   name: kube-prometheus-stack
 spec:
+  replicas: 1
   interval: 1h
   chartRef:
     kind: OCIRepository
