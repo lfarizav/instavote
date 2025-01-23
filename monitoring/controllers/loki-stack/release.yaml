@@ -3,7 +3,6 @@ kind: HelmRelease
 metadata:
   name: loki-stack
 spec:
-  replicas: 1
   interval: 5m
   dependsOn:
     - name: kube-prometheus-stack
