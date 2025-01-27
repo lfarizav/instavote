@@ -13,4 +13,5 @@ configMapGenerator:
       - options.env
 images:
    - name: schoolofdevops/vote
+     newName: lfarizav/vote
      newTag: v8 # {"$imagepolicy": "flux-system:vote:tag"}
