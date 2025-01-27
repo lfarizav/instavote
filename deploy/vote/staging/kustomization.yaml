@@ -8,10 +8,10 @@ patchesStrategicMerge:
 commonAnnotations:
   supported-by: Luis Felipe Ariza Vesga
 configMapGenerator:
-  - name: vote-options
-    envs: 
-      - options.env
+- name: vote-options
+  envs:
+  - options.env
 images:
-   - name: schoolofdevops/vote
-     newName: lfarizav/vote
-     newTag: v8 # {"$imagepolicy": "flux-system:vote:tag"}
+- name: schoolofdevops/vote
+  newName: lfarizav/vote
+  newTag: main-fa6cd007-1737991425 # {"$imagepolicy": "flux-system:vote:tag"}
